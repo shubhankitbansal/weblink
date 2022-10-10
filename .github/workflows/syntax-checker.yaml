@@ -10,3 +10,5 @@ jobs:
       uses: actions/checkout@v3.1.0
     - name: java checker
       uses: lukasmwerner/prettier_action_java@v1.1.1
+    - name: Python Syntax Checker
+      uses: cclauss/Find-Python-syntax-errors-action@v0.2.0
