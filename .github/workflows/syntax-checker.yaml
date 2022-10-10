@@ -8,3 +8,5 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3.1.0
+    - name: java checker
+      uses: lukasmwerner/prettier_action_java@v1.1.1
